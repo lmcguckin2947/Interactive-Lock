@@ -19,6 +19,8 @@
   
 ## UML:
 
+![UML pt1](https://github.com/lmcguckin2947/Interactive-Lock/blob/main/CSE%20271%20Homework%20%20%235.jpg)
+![UML pt2](https://github.com/lmcguckin2947/Interactive-Lock/blob/main/CSE%20271%20Homework%20%20%235%20(1).jpg)
 
 ## Class By Class Description:
 ### Log
