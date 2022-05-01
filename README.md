@@ -52,7 +52,7 @@ This file interacts with the log.txt file and houses all of the methods that are
 
 **passFile** - This method passes the logFile onto the LockUI. Returns a File object that is passed onto the Lock UI file.
 
-### Access
+### [Access](Code/Access.java)
 This file interacts with the acccess.txt file and houses all of the methods that are needed for the UI to run properly. A user will need to download the access.txt file in order to run this class.
 
 **accessFile** - This File variable houses the access.txt file that is needed to run this program. Therefore, a user will need to have a correctly formatted access file in order to run this program. It is formatted by name allowed.
@@ -71,7 +71,7 @@ This file interacts with the acccess.txt file and houses all of the methods that
 
 **findPerson** - This method searches through the list to find a certain person. This method's time complexity is O(n) because it has to read each each element of the list if the person is at the end of the list. Its parameter variable is person which is a Person object that we are trying to find. It returns a boolean variable that says whether we have found the person or not. It can throw a FileNotFoundException, and throws the exception if the access file cannot be found.
 
-### LockUI
+### [LockUI](Code/LockUI.java)
 The user interface for the Lock that integrates the Access Class, and the Log class. This contains the main method and is the core of the project. The user must download the access.txt file and the log.txt file in order for it to work.
 
 **logFile** - A File object that holds the log file. This file contains the logs of whomever trys to access the lock. A user must download the file named "log.txt".
@@ -114,7 +114,7 @@ is implemented in the menu method.
 
 **createAPerson** - This method prompts the user all the necessary information into creating a Person object. This method will make the name all caps. It returns a Person object that holds the new Person.
 
-### Person
+### [Person](Code/Person.java)
 An object class for the person object. It is intended for the LockUI, Access, and Log classes.
 
 **name** - A string global variable that holds the person's name.
