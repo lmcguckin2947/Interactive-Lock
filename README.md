@@ -31,7 +31,7 @@
 ![UML pt2](https://github.com/lmcguckin2947/Interactive-Lock/blob/main/CSE%20271%20Homework%20%20%235%20(1).jpg)
 
 ## Class By Class Description:
-### Log
+### [Log](Code/Access.java)
 This file interacts with the log.txt file and houses all of the methods that are needed for the UI to run properly. A user will need to download the log.txt file in order to run this class.
 
 **AccessList** - This Person array list holds the people who are able to read the log. This array is empty by design, so you will have to add people to the array in order to view it.
