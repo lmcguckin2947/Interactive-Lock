@@ -3,6 +3,14 @@
 
 ## Objective:
   This project aims to create an interactive lock that will let a user into a room if they have the correct credentials. This project is the admin side of the Lock. This is because you can add, remove, and import a list of people to allow or deny access. They are also entitled to access logs if they are on a specified list. 
+**Table of Contents:**
+- [Operation](https://github.com/lmcguckin2947/Interactive-Lock/edit/main/README.md#general-usage-and-operation)
+- [UML](https://github.com/lmcguckin2947/Interactive-Lock/edit/main/README.md#uml)
+- [Class By Class Description](https://github.com/lmcguckin2947/Interactive-Lock/edit/main/README.md#class-by-class-description)
+  1. [Log](https://github.com/lmcguckin2947/Interactive-Lock/edit/main/README.md#log)
+  2. [Access](https://github.com/lmcguckin2947/Interactive-Lock/edit/main/README.md#access)
+  3. [LockUI](https://github.com/lmcguckin2947/Interactive-Lock/edit/main/README.md#lockui)
+  4. [Person](https://github.com/lmcguckin2947/Interactive-Lock/edit/main/README.md#person)
 
 ## General Usage and Operation:
   The program starts with the downloading process. Before continuing, a user must download the LockUI.Java, Person.Java, Log.Java, Access.Java, access.txt, and the log.txt files. The LockUI class is the main point of contact between the user and the program. The Person class creates an object of a person who is on either the list or the log, is is used throughout the rest of the programs. The Access class works with the access.txt file and can add, remove, check and do more to the list. The Log class works with the log.txt file and can add, remove, check and do more to the list. The access.txt file holds the people who have access to unlock the Lock, and the log.txt file holds a log of those who have tried accessing the Lock.
