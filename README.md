@@ -136,3 +136,5 @@ An object class for the person object. It is intended for the LockUI, Access, an
 **toString** - A to string method that creates a String from a person class. This method returns a String value that is properly formatted and holds the name and the allowance.
 
 **isNull** - An isNull method that tells the user if a Person is empty. This method returns a boolean value that tells the user if the Person is null.
+
+[To top](https://github.com/lmcguckin2947/Interactive-Lock#interactive-lock-)
